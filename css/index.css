@@ -1,3 +1,12 @@
+.buttonTag {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 90px;
+  height: 32px;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -178,7 +187,7 @@ nav {
 }
 a {
   text-decoration: none;
-  margin: 0 -29% 0 32%;
+  margin: 0 -16% 0 20%;
   font-size: 12px;
   color: black;
 }
@@ -242,4 +251,43 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 90px;
+  height: 32px;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+:hover {
+  background-color: white;
+  color: black;
+}
+@media (max-width: 500px) {
+  body .space-images {
+    display: flex;
+    justify-content: center;
+  }
+  body .space-images .blast {
+    margin: -0.1%;
+    width: 95%;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  body .sky {
+    display: none;
+  }
+  body .launch {
+    display: none;
+  }
+  body .walk-img {
+    display: column;
+    justify-content: center;
+  }
+  body h2 {
+    display: left;
+    margin-left: -350px;
+  }
 }
